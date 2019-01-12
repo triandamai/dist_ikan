@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">distributor_ikan</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="input_phone">No hp</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="masukan_nomer_hp">Masukan Nomer Hp</string>
+    <string name="masukan_kode_verifikasi">Masukan Kode Verifikasi</string>
+    <string name="kirim_kode">Kirim Kode</string>
+    <string name="register_login">Register / Login</string>
+    <string name="nomer_salah">Nomer Salah</string>
+    <string name="nomer_salahh">Nomer Salah ?</string>
+    <string name="ini_splash_screen_nya">ini splash screen nya</string>
+    <string name="title_activity_dashboard_penjual2">dashboard_penjual2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

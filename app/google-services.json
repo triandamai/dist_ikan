@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "799874607993",
+    "firebase_url": "https://ikan76.firebaseio.com",
+    "project_id": "ikan76",
+    "storage_bucket": "ikan76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799874607993:android:e229db8aac58a3a0",
+        "android_client_info": {
+          "package_name": "com.distributor_ikan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799874607993-ibe33d44uavjq8fjsvsc5ecb565ua34g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.distributor_ikan",
+            "certificate_hash": "8c3f6db3aa566120f31775482aef79633b98e5c0"
+          }
+        },
+        {
+          "client_id": "799874607993-3h1jenffed3n6o4dor5g1bbhrdk4a3hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzl3szCjo7CWsi7n1uEaZMsWnLMZypd2w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799874607993-3h1jenffed3n6o4dor5g1bbhrdk4a3hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

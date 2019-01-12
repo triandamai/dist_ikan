@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".auth.Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/masukan_nomer_hp" />
+
+            <com.distributor_ikan.Helper.EditTextPrefix
+                android:id="@+id/et_noHp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:inputType="phone"
+                android:tag="+62 "
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/et_verifikasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_nomerSalah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="end"
+                android:text="@string/nomer_salahh"
+                android:textColor="@color/primaryDarkColor"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/et_hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_phone"
+            android:inputType="phone"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_ulangpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kirim_kode">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

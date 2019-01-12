@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.distributor_ikan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pembeli.dashboard_pembeli" />
+        <activity android:name=".auth.Login" />
+        <activity android:name=".auth.Register" />
+        <activity android:name=".pembeli.pemesanan" />
+        <activity android:name=".pembeli.pembayaran" />
+        <activity
+            android:name=".penjual.dashboard_penjual"
+            android:label="@string/title_activity_dashboard_penjual2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".penjual.tambah_ikan" />
+        <activity android:name=".penjual.detail_pesanan" />
+        <activity android:name=".penjual.laporan" />
+        <activity android:name=".auth.complete_Register" />
+        <activity android:name=".penjual.data_ikan"></activity>
+    </application>
+
+</manifest>

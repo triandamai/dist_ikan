@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ini_splash_screen_nya"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        >
+        <Button
+            android:id="@+id/btn_penjual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penjual"/>
+        <Button
+            android:id="@+id/btn_pembeli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembeli"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
